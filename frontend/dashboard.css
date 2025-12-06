@@ -3,8 +3,9 @@ body{
     margin: 5px 5px 5px 130px;
 }
 .principal-container{
-    max-width: 1400px;
-    height: calc(100vh - 0px);
+    width: 100%;
+    max-width: none;
+    height: 100vh;
     border: none;
     border-radius: 20px;
     background-color: #f9fafd;
