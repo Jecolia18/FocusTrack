@@ -1,13 +1,30 @@
-body{
-    background-color: #5856b2;
-    margin: 5px 5px 5px 130px;
-}
-.principal-container{
-    width: 100%;
-    max-width: none;
+body {
+    margin: 0;
+    padding: 0;
+    background: #5856b2;   /* Purple background */
+    font-family: Arial, sans-serif;
     height: 100vh;
-    border: none;
-    border-radius: 20px;
-    background-color: #f9fafd;
-    overflow: hidden
+}
+
+.layout {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar {
+    width: 230px;
+    background-color: #5856b2; 
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-panel {
+    flex: 1;
+    background-color: white; 
+    border-radius: 30px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 20px 20px 20px 0;
 }
