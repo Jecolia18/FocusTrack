@@ -11,27 +11,62 @@ body {
     height: 100%;
     width: 100%;
 }
+.icpic{
+    border-radius: 50%;
+    background-color: #5856b2;
+}
 
 .sidebar {
-    width: 230px;
+    width: 200px;
     background-color: #5856b2; 
     color: white;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 .main-panel {
+    display: flex;
     flex: 1;
     background-color: white; 
     border-radius: 30px;
     padding: 40px;
     box-sizing: border-box;
     margin: 20px 20px 20px 0;
+    width: 100%;
+
+    flex-direction: row;
+    align-items: flex-start;
+    
+    justify-content: space-between;
 }
-#box{
-    width: 344px;
-    height: 40px;
-    background-color: #edd5f9;
+.checkbox input{
+    background-color: transparent;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+.box{
+    width: 100%;
     padding: 15px;
-    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+    width: 100%;
+    max-width: 500px; 
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+    margin: 15px;
+}
+.first{
+    background-color: #dce2ee;
+}
+.second{
+    background-color: #edd5f9;
+}
+img{
+    width: 25px;
+    height:25px;
+}
+.arrow-btn{
+    border-radius: 50%;
+    background-color: #5856b2;
+    border: none;
+    align-items: center;
 }
